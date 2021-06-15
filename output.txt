@@ -1,0 +1,71 @@
+###############################################
+
+Bigram probability v. Own (Shakespeare): 2.6649711933554845
+% target in predictive pool: NA
+Bigram probability in previously observed pairs: 4.230498058753311
+
+Bigram probability v. Reuters (Shakespeare): 1.2101520436516509
+% target in predictive pool: 21.60593630248446
+Bigram probability in previously observed pairs: 5.601016436915516
+
+Bigram probability v. Own (Brown): 3.807292698958142
+% target in predictive pool: NA
+Bigram probability in previously observed pairs: 6.2417693559281355
+
+Bigram probability v. Reuters (Brown): 3.4283330275046424
+% target in predictive pool: 42.22093903966284
+Bigram probability in previously observed pairs: 8.119982893521215
+
+###############################################
+
+Trigram probability v. Own (Shakespeare): 3.1008217155431863
+% target in predictive pool: NA
+Trigram probability in previously observed triplets: 18.186149674785483
+
+Trigram probability v. Reuters (Shakespeare): 0.53349430979253
+% target in predictive pool: 2.3475259263480988
+Trigram probability in previously observed triplets: 22.725811195723583
+
+Trigram probability v. Own (Brown): 3.9034403992291185
+% target in predictive pool: NA
+Trigram probability in previously observed triplets: 21.0040418453345
+
+Trigram probability v. Reuters (Brown): 2.8561824774981477
+% target in predictive pool: 10.605486809415002
+Trigram probability in previously observed triplets: 26.931177501089124
+
+###############################################
+
+Fourgram probability v. Own (Shakespeare): 1.0666559550106156
+% target in predictive pool: NA
+Fourgram probability in previously observed quadruplets: 47.86466838116538
+
+Fourgram probability v. Reuters (Shakespeare): 0.06425133159722328
+% target in predictive pool: 0.11338684712573341
+Fourgram probability in previously observed quadruplets: 56.66559501912571
+
+Fourgram probability v. Own (Brown): 1.4585553212514808
+% target in predictive pool: NA
+Fourgram probability in previously observed quadruplets: 48.540985810413076
+
+Fourgram probability v. Reuters (Brown): 0.9322669206926475
+% target in predictive pool: 1.7742191905738933
+Fourgram probability in previously observed quadruplets: 52.545194282961965
+
+###############################################
+
+Fivegram probability v. Own (Shakespeare): 0.2017763196288036
+% target in predictive pool: NA
+Fivegram probability in previously observed quintuplets: 75.50401481757415
+
+Fivegram probability v. Reuters (Shakespeare): 0.0016060649010201573
+% target in predictive pool: 0.0018747839311519347
+Fivegram probability in previously observed quintuplets: 85.66666666666666
+
+Fivegram probability v. Own (Brown): 0.27951377472598404
+% target in predictive pool: NA
+Fivegram probability in previously observed quintuplets: 68.66509979575368
+
+Fivegram probability v. Reuters (Brown): 0.16837609674193274
+% target in predictive pool: 0.24792142705553186
+Fivegram probability in previously observed quintuplets: 67.9151046933181
