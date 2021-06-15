@@ -1,4 +1,4 @@
-# Language-Modeling-Exploration
+# Language-Modeling Exploration
 After training NGRAM models on Shakespeare, how up with the times can they be?
 
 ## Prerequisites
@@ -32,3 +32,9 @@ Given this plan, this inquiry we required 3 different datasets:
 * MIT's freely accessible hosting of [The Complete Works of William Shakespeare](http://shakespeare.mit.edu/) was a life-saver as Krisya was able to scrape the raw text data into a single txt file which was then used for the LMs
 2. Two corpora consisting of modern vernacular
 * For the sake of simplicity and repeatability the Brown University Standard Corpus of Present-Day American English (aka. Brown) and Reuters corpora included in NLTK were used. Not only are these corpora established as both extensive and well-balanced but they allowed for the easy filtering out of numbers or similarly confounding inputs. 
+
+## Results
+Please consult the full writeup for an in-depth analysis not only of the n-gram results themselves but also for the results of other models applied to the data by Masaki and the significance of the variances in performance to the underlying approach these models take to extrapolating meaning. An output.txt file is also provided containing solely the results of the n-gram models.
+
+For instance, LMs such as these draw meaning from the relative likelihood of specific words to follow a given sequence. For instance, the bigram ("There", "once") will most commonly return the word "was" as the most likely target word given the relatively likely occurrence of running into the trigram ("There", "once", "was") as opposed to ("There", "once", "sang"). Given this however these models cannot account for in-word variation, that is to say the evolution of spelling or form a single piece of vocabulary, as such the two trigrams ("What", "have", "you") and ("What", "hast", "thou") will be treated as vastly different when in reality they are literally synonymous.  Similarly, as mentioned earlier, much vocabulary will be unique to a corpus making all the word sequences that contain it statistically intranslatable to a different corpus such as character names, outdated vocabulary (i.e. wench, codswallop), or even just something as mundane as outdated usage (ass being used as a synonym for donkey in Midsummer Night's Dream will not translate well to its use as a descriptor of one's posterior in an anatomical text). This is why instead of focusing on the absolute accuracy of the models I chose to focus on the accuracy demonstrateed in instances where the correct word was in the pool of statistical possibilities considered by the model as it allowed to measure the model's accuracy outside of these idiomatic quandaries.
+
