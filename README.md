@@ -31,4 +31,4 @@ Given this plan, this inquiry we required 3 different datasets:
 1. A Shakespeare training corpus, as extensive as possible to train our datasets on
 * MIT's freely accessible hosting of [The Complete Works of William Shakespeare](http://shakespeare.mit.edu/) was a life-saver as Krisya was able to scrape the raw text data into a single txt file which was then used for the LMs
 2. Two corpora consisting of modern vernacular
-* For the sake of simplicity and repeatability the Brown and Reuters corpora included in NLTK were used. Not only are these corpora established as both extensive and well-balanced but they allowed for the easy filtering out of numbers or similarly confounding inputs. 
+* For the sake of simplicity and repeatability the Brown University Standard Corpus of Present-Day American English (aka. Brown) and Reuters corpora included in NLTK were used. Not only are these corpora established as both extensive and well-balanced but they allowed for the easy filtering out of numbers or similarly confounding inputs. 
