@@ -7,7 +7,7 @@ After training NGRAM models on Shakespeare, how up with the times can they be?
     <li>
       <a href="#prerequisites">Prerequisites</a>
       <ul>
-        <li><a href="#install">Installh</a></li>
+        <li><a href="#install">Install</a></li>
       </ul>
     </li>
     <li><a href="#objective">Objective</a></li>
